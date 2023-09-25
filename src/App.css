@@ -1,0 +1,122 @@
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.Titulo{
+  color: red;
+  font-size: 36px;
+}
+
+
+
+.controle{
+  margin-top: 50px ;
+  
+}
+
+.icone{
+height: 80px;
+width: 80px;
+position: fixed;
+-webkit-animation: spin 1s linear infinite;
+-moz-animation: spin 1s linear infinite;
+animation: spin 18s linear infinite;
+
+left: 49%;
+margin: -170px;
+}
+
+@-webkit-keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+  100%{-webkit-transform: rotate(360deg);}
+}
+
+.icone:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.icone.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.square {
+  background-image: linear-gradient(to top, red, purple, pink);
+  background-attachment: fixed;
+  border: 1px solid #999;
+  float: left;
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 34px;
+  height: 100px;
+  width: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.Palmeiras{
+  height: 70px;
+  width: 70px;
+}
+
+.Twitter{
+  height: 60px;
+  width: 90px;
+}
+
+.status {
+  margin-bottom: 10px;
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.game-info {
+  margin-left: 20px;
+  margin: 100px 0px 0px 150px;
+}
+
+body{
+
+  background-image: url(https://institutodelongevidade.org/storage/app/media/2022/08.AGO/estatuto-da-pessoa-idosa-instituto-de-longevidade-mag-meio.jpg);
+  background-attachment: fixed;
+  
+}
